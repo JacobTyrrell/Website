@@ -2308,6 +2308,16 @@ a.box:active {
   .image.is-128x128 {
     height: 128px;
     width: 128px; }
+  .image.is-256x256 {
+    height: 256px;
+    width: 256px; }
+  .image.is-512x512 {
+    height: 512px;
+    width: 512px; }
+  .image.is-1024x1024 {
+    height: 1024px;
+    width: 1024px; }
+  
 
 .notification {
   background-color: whitesmoke;
