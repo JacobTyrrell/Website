@@ -18,8 +18,9 @@ app.use((req, res, next) => {
     next();
 });
 
-// Set middleware
-app.use('/', require('./routes/index')); // set index middleware
+// Set routers
+app.use('/', require('./routes/index')); // set index router
+app.use('/projects', require('./routes/projects')) // set project router
 
 // Catch 404 and pass on to error handler. 
 app.use((req, res, next) => {
