@@ -1,0 +1,45 @@
+@import 'globals';
+
+.input-dark {
+  background-clip: padding-box;
+  background-color: $dark;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  color: $white;
+  display: block;
+  font-size: .9375rem;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  width: 100%;
+}
+
+.textarea-dark {
+  background-color: $dark;
+  border: 1px solid transparent;
+  color: $white;
+}
+
+.select select {
+  background-color: $dark;
+  color: $white;
+}
+
+.verification-select {
+  background-color: $dark;
+  color: $white;
+}
+
+.unselectable {
+  text-align: center;
+  user-select: none;
+}
+
+.radio {
+  color: $white;
+  &:hover {
+      color: $white;
+  }
+}
